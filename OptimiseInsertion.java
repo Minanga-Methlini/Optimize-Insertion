@@ -1,15 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package optimiseinsertion;
-
 import java.util.Arrays;
 
-/**
- *
- * @author Minanga Methlini
- */
 public class OptimiseInsertion {
 
     static Integer[] array = {21, 16, 13, 9, 6};
@@ -32,13 +23,10 @@ public class OptimiseInsertion {
                     + (outerIndex - i + 1) 
                     + "; "
                     +Arrays.deepToString(array));
-            
-           
         }
         return i;
    }
 
-   
     public static void insert(int endIndex){
     // method
         int position = shift (endIndex);
@@ -58,11 +46,8 @@ public static void insertionSort(){
         }
     }
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+
+ public static void main(String[] args) {
         
          System.out.println("Array befpre sorting:" + Arrays.deepToString(array));
         
